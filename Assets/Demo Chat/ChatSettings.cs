@@ -7,7 +7,7 @@ using UnityEditor;
 
 public class ChatSettings : ScriptableObject
 {
-    public string AppId;
+    public string AppId = "be44346f-4545-4696-b842-8c4770a605f8";
     [HideInInspector]
     public bool WizardDone;
 

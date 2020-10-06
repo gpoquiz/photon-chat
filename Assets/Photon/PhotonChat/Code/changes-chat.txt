@@ -4,6 +4,9 @@ Exit Games GmbH - www.photonengine.com - forum.photonengine.com
 
 
 
+Version 4.1.4.2 (8. May 2020 - rev5519)
+    Added: Broadcast receive and read channel using UniqueRoomID UniqueRoomID read from SubscribeChannel response
+
 Version 4.1.2.14 (6. May 2019 - rev5097)
 	Changed: Chat API changes are now listed in a separate changes file.
     

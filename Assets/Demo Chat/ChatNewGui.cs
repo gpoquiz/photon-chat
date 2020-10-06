@@ -120,6 +120,7 @@ public class ChatNewGui : MonoBehaviour, IChatClientListener
 
         this.UserIdFormPanel.gameObject.SetActive(!_AppIdPresent);
 
+        Debug.Log(ChatSettings.Instance.AppId);
         if (string.IsNullOrEmpty(ChatSettings.Instance.AppId))
         {
             Debug.LogError("You need to set the chat app ID in the PhotonServerSettings file in order to continue.");
